@@ -2,3 +2,5 @@ add some files
 add new feature
 
 next beta version
+next beta version
+next beta version

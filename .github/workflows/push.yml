@@ -30,6 +30,13 @@ jobs:
         uses: cycjimmy/semantic-release-action@v2
         with:
           semantic_version: 17.3.7
+          branches: |    
+            [ 
+              {
+                name: 'master', 
+                prerelease: true
+              }
+            ]
           extra_plugins: |
             @semantic-release/changelog@5
             @semantic-release/git@9
@@ -40,3 +47,7 @@ jobs:
           GIT_COMMITTER_NAME: ${{ github.actor }}
           GIT_COMMITTER_EMAIL: ${{ github.actor }}@users.noreply.github.com
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check outputs
+        run:
+          echo ${{ steps.semantic.outputs.new_release_version }}

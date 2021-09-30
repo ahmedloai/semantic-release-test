@@ -1,3 +1,9 @@
+# [0.4.0](https://github.com/ahmedloai/semantic-release-test/compare/v0.3.0...v0.4.0) (2021-09-30)
+### Features
+* draft for a new version ([56abf46](https://github.com/ahmedloai/semantic-release-test/commit/56abf467a62f3893afb1c4f9372727fee000dadc))
+### Continuous Integration
+* ci updates ([2e152a6](https://github.com/ahmedloai/semantic-release-test/commit/2e152a6189cb3ba99227c171e82bb2a52fd4ecc3))
+
 # [0.4.0-dev.1](https://github.com/ahmedloai/semantic-release-test/compare/v0.3.0...v0.4.0-dev.1) (2021-09-30)
 ### Features
 * draft for a new version ([56abf46](https://github.com/ahmedloai/semantic-release-test/commit/56abf467a62f3893afb1c4f9372727fee000dadc))

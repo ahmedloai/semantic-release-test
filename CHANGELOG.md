@@ -1,3 +1,9 @@
+# [0.3.0](https://github.com/ahmedloai/semantic-release-test/compare/v0.2.0...v0.3.0) (2021-09-30)
+### Features
+* new feat updates ([550d688](https://github.com/ahmedloai/semantic-release-test/commit/550d688e5a6b69c23d64b811cd5ef50f5fbaf72f))
+### Bug Fixes
+* new feat updates ([f41b05a](https://github.com/ahmedloai/semantic-release-test/commit/f41b05aa779be34496dec186cb61cf150a2e7af4))
+
 # [0.2.0](https://github.com/ahmedloai/semantic-release-test/compare/v0.1.0...v0.2.0) (2021-09-30)
 ### Features
 * new feat ([b0caf25](https://github.com/ahmedloai/semantic-release-test/commit/b0caf250f57c07fb53f26699a97720a0d5363199))

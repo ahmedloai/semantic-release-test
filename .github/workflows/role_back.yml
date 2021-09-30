@@ -1,0 +1,18 @@
+on: 
+  workflow_dispatch:
+    inputs:
+      cluster:
+        description: 'Target Cluster'     
+        required: true
+        default: 'Prod'
+      version:
+        description: 'Version to Roll Back'
+        required: true
+        default: 'v0.x.x'
+jobs:
+  printInputs:
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo "Log level: ${{ github.event.inputs.logLevel }}"
+        echo "Tags: ${{ github.event.inputs.tags }}" 

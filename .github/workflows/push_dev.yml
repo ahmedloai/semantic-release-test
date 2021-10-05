@@ -7,7 +7,9 @@ on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: 
-      - dev 
+      - dev
+      - prod
+       
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -32,14 +34,10 @@ jobs:
           semantic_version: 17.3.7
           branches: |    
             [ 
-              '+([0-9])?(.{+([0-9]),x}).x',
               'master',
-              {
-                name: 'dev', 
-                prerelease: true
-              }
+              'dev',
+              'prod'
             ]
-          dry_run: true
           extra_plugins: |
             @semantic-release/changelog@5
             @semantic-release/git@9

@@ -1,3 +1,4 @@
+name: Role Back
 on: 
   workflow_dispatch:
     inputs:
@@ -12,7 +13,10 @@ on:
 jobs:
   printInputs:
     runs-on: ubuntu-latest
+    
     steps:
-    - run: |
+    - name: test
+      if: ${{ github.event.inputs.cluster == 'dev' }}
+      run: |
         echo "Log level: ${{ github.event.inputs.version }}"
         echo "Tags: ${{ github.event.inputs.cluster }}" 

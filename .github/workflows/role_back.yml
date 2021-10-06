@@ -1,0 +1,22 @@
+name: Role Back
+on: 
+  workflow_dispatch:
+    inputs:
+      cluster:
+        description: 'Target Cluster'     
+        required: true
+        default: 'Prod'
+      version:
+        description: 'Version to Roll Back'
+        required: true
+        default: 'v0.x.x'
+jobs:
+  printInputs:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: test
+      if: ${{ github.event.inputs.cluster == 'dev' }}
+      run: |
+        echo "Log level: ${{ github.event.inputs.version }}"
+        echo "Tags: ${{ github.event.inputs.cluster }}" 

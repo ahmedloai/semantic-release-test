@@ -1,3 +1,7 @@
+# [0.4.0](https://github.com/ahmedloai/semantic-release-test/compare/v0.3.0...v0.4.0) (2021-10-06)
+### Features
+* prod feature ([092d781](https://github.com/ahmedloai/semantic-release-test/commit/092d781d56a1d22c7df5304eceb253532b2eddac))
+
 # [0.3.0](https://github.com/ahmedloai/semantic-release-test/compare/v0.2.0...v0.3.0) (2021-10-01)
 ### Features
 * draft for a new version ([56abf46](https://github.com/ahmedloai/semantic-release-test/commit/56abf467a62f3893afb1c4f9372727fee000dadc))
